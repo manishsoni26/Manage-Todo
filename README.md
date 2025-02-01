@@ -1,8 +1,35 @@
-# React + Vite
+# Manage-Todo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+Manage-Todo is a simple and efficient task management web application that allows users to add, update, delete, and organize their daily tasks. The project is designed to enhance productivity by providing an intuitive and user-friendly interface for managing todos.
 
-Currently, two official plugins are available:
+## Features
+- ✅ Add new tasks with a title 
+- ✏️ Edit existing tasks
+- 🗑 Delete tasks when completed or no longer needed
+- 📌 Mark tasks as completed
+- 🔄 Persistent storage using local storage
+- 🎨 Clean and responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+- **Frontend:** HTML, CSS, JavaScript, React.js
+- **State Management:** React Hooks or context API
+- **Styling:** CSS, TailwindCSS
+
+## Installation
+
+### Clone the repository
+```sh
+git clone https://github.com/manishsoni26/Manage-Todo.git
+cd Manage-Todo
+```
+
+### Install dependencies
+
+```sh
+npm install
+```
+### Run the development server
+```sh
+npm start
+```
