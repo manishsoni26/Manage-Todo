@@ -1,5 +1,5 @@
 import { useContext,createContext } from "react";
-const TodoContext=createContext({
+export const TodoContext=createContext({
     todos:[
         {
             todo:"todo msg",
