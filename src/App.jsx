@@ -47,8 +47,8 @@ function App() {
 
   return (
     <TodoProvider value={{todos,addTodo,deleteTodo,updateTodo,toggleComplete}}>
-    <div className=" h-screen py-8 bg-cover" style={{backgroundImage:`url(https://images.unsplash.com/photo-1631557777232-a2632ae3c67d?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D`}}>
-      <div className="border border-gray-60 backdrop-blur-sm bg-white/40 w-full max-w-lg mx-auto shadow-lg rounded-lg px-4 py-3 text-black">
+    <div className=" h-screen py-8 bg-cover" style={{backgroundImage:`url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?t=st=1738562060~exp=1738565660~hmac=687cad14f4a794e5243e96b512d944bccffd7d052b84ecb72eb802ab7285b2f1&w=1060`}}>
+      <div className=" border-gray-60 backdrop-blur-sm bg-white/20 w-full max-w-lg mx-auto shadow-lg rounded-lg px-4 py-3 text-black">
         <h1 className="text-3xl font-extrabold text-center mb-8 mt-2 bg-gradient-to-r from-blue-800 to-red-800 bg-clip-text text-transparent">Manage Your Todos</h1>
           <div className="mb-4">
             {/* Todo form goes here */} 
