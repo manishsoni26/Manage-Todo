@@ -21,7 +21,7 @@ function TodoForm() {
             <input
                 type="text"
                 placeholder="Write Todo..."
-                className="w-full border placeholder:text-slate-300 border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-white/10 py-1.5"
+                className="w-full border placeholder:text-slate-500 border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-white/30 py-1.5 "
                 value={todo}
                 onChange={(e)=>setTodo(e.target.value)}
             />
