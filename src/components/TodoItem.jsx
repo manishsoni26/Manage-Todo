@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FilePenLine ,Save} from 'lucide-react';
-import { useTodo  } from "../context/ToDoContext";
+import { useTodo  } from "../context/TodoContext";
 function TodoItem({ todoObj }) {
     const {deleteTodo,updateTodo,toggleComplete}=useTodo()
     const [editable,setEditable]=useState(false)
