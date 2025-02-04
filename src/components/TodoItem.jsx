@@ -5,13 +5,17 @@ function TodoItem({ todoObj }) {
     const {deleteTodo,updateTodo,toggleComplete}=useTodo()
     const [editable,setEditable]=useState(false)
     const [todoMsg,setTodoMsg]=useState(todoObj.todo)
-
    const togglecompleted=()=>{
     toggleComplete(todoObj.id)
    }
    const editTodo=()=>{
-        updateTodo(todoObj.id,todoMsg)
-        setEditable(false)
+        if(!todoMsg){
+            alert("Please Enter Something")
+        }
+        else{
+            updateTodo(todoObj.id,todoMsg)
+            setEditable(false)
+        }
    }
     return (
         <div
@@ -31,7 +35,7 @@ function TodoItem({ todoObj }) {
                 value={todoMsg}
                 onChange={(e)=>setTodoMsg(e.target.value)}
                 readOnly={!editable}
-                className={`border outline-none w-full  rounded-lg px-1 bg-transparent
+                className={`border outline-none w-full rounded-lg px-1 bg-transparent
                     ${editable ? 'bg-white border-black/30 ':' cursor-default border-none'}
                     ${todoObj.completed ? 'line-through' :''}
                     `}
